@@ -1,7 +1,7 @@
 import torch
 import nibabel as nib
 import numpy as np
-from ICILoss.tools import connected_components, connected_components_with_gradients, get_corrected_indices
+from tools import connected_components, connected_components_with_gradients, get_corrected_indices
 from monai.losses import DiceLoss
 
 class ICILoss(torch.nn.modules.loss._Loss):
