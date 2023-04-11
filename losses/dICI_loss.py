@@ -24,7 +24,8 @@ class dICILoss(torch.nn.modules.loss._Loss):
 
     The CCA is adapted from Kornia library `here <https://kornia-tutorials.readthedocs.io/en/latest/connected_components.html>`
 
-    The original paper: TBA
+    The original paper: Improving Segmentation of Objects with Varying Sizes in Biomedical Images using Instance-wise and 
+    Center-of-Instance Segmentation Loss Function<https://openreview.net/pdf?id=8o83y0_YtE>
     """
     
     def __init__(
